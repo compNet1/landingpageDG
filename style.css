@@ -1,0 +1,11 @@
+img { 
+    width: 4%;
+    margin:auto ;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    background: local;
+    color: blueviolet;
+}
