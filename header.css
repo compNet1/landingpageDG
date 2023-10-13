@@ -1,0 +1,78 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px 60px;
+    box-sizing: border-box;
+}
+
+/* Estilizando o cabeçalho */
+.header {
+    background-color: #fff; /* Cor de fundo do cabeçalho */
+    color: #333; /* Cor do texto no cabeçalho */
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+}
+
+.div-1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 300px; /* Largura da imagem do logo */
+}
+
+input[type="search"] {
+    width: 500px; /* Largura do campo de pesquisa */
+    height:50px;
+    margin: 0 10px; /* Margem à esquerda e à direita do campo de pesquisa */
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    padding: 20px
+}
+
+a {
+    color: #333; /* Cor dos links */
+    text-decoration: none; /* Remover sublinhado dos links */
+    margin: 0 10px; /* Margem à esquerda e à direita dos links */
+}
+
+button {
+    background-color: #C92071; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto no botão */
+    padding: 5px 10px; /* Espaçamento interno do botão */
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 75px;
+}
+
+.carrinho {
+    width: 30px; /* Largura da imagem do carrinho */
+}
+
+/* Estilizando a barra de navegação */
+.div-2 {
+    margin-top: 20px; /* Margem superior para afastar a barra de navegação do cabeçalho */
+    display: flex;
+    justify-content: left;
+}
+
+nav {
+    background-color: #fff; /* Cor de fundo da barra de navegação */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #333; /* Cor dos links da barra de navegação */
+    text-decoration: none;
+}
